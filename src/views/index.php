@@ -29,10 +29,10 @@
     <!-- For Windows Phone -->
 
 
-    <!-- CORE CSS-->    
+    <!-- CORE CSS-->
     <link href="dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="dist/css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <!-- Custome CSS-->    
+    <!-- Custome CSS-->
     <link href="dist/css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
 
@@ -47,7 +47,7 @@
 <body>
     <!-- Start Page Loading -->
     <div id="loader-wrapper">
-        <div id="loader"></div>        
+        <div id="loader"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>
@@ -78,8 +78,6 @@
                 <!--start container-->
                 <div class="container">
 
-                    <!--chart dashboard start-->
-                    
                 </div>
                 <!--end container-->
             </section>
@@ -223,10 +221,10 @@
                 </ul>
             </aside>
             <!-- LEFT RIGHT SIDEBAR NAV-->
-            
+
         </div>
         <!-- END WRAPPER -->
-        
+
     </div>
     <!-- END MAIN -->
 
@@ -237,7 +235,7 @@
     <!-- START FOOTER -->
     <footer class="page-footer">
         <div class="container">
-            
+
         </div>
         <div class="footer-copyright">
             <div class="container">
@@ -252,31 +250,31 @@
     <!-- ================================================
     Scripts
     ================================================ -->
-    
+
     <!-- jQuery Library -->
-    <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>    
+    <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>
     <!--materialize js-->
     <script type="text/javascript" src="dist/js/materialize.min.js"></script>
     <!--scrollbar-->
     <script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    
+
 
     <!-- sparkline -->
     <script type="text/javascript" src="dist/js/plugins/sparkline/jquery.sparkline.min.js"></script>
     <script type="text/javascript" src="dist/js/plugins/sparkline/sparkline-script.js"></script>
-   
+
     <!--jvectormap-->
     <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
     <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
     <script type="text/javascript" src="dist/js/plugins/jvectormap/vectormap-script.js"></script>
- 
-    
+
+
     <!--plugins.js - Some Specific JS codes for Plugin Settings-->
     <script type="text/javascript" src="dist/js/plugins.min.js"></script>
     <!--custom-script.js - Add your own theme custom JS-->
     <script type="text/javascript" src="dist/js/custom-script.js"></script>
     <!-- Toast Notification -->
-   
+
 </body>
 
 

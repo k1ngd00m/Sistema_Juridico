@@ -20,4 +20,5 @@ class AbogadoController extends BaseController
         $this->setView('pages/abogado/viewListar');
     }
 
+    
 }
