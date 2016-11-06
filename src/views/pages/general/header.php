@@ -6,8 +6,9 @@
                     <ul class="left">
                       <li><h1 class="logo-wrapper"><a href="#" class="brand-logo darken-1"><image src="dist/images/materialize-logo.png" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
                     </ul>
-
-                    <ul class="right hide-on-med-and-down">
+                    <a href="#" class="right"><img class="responsive-img" style="width: 60px" src="dist/images/logo_ufps.png" alt="materialize logo"></a>
+                    <a href="#" class="right"><img class="responsive-img" style="width: 60px" src="dist/images/logo_ingsistemas.png" alt="materialize logo"></a>
+                    <ul class="right">
 
 
                         <li>

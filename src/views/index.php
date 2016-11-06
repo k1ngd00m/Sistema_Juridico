@@ -32,8 +32,8 @@
 
 
     <!-- CORE CSS-->
-    <link href="dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="dist/css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="dist/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
     <link href="dist/css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
@@ -50,7 +50,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
 <!-- Start Page Loading -->
 <div id="loader-wrapper">
     <div id="loader"></div>
@@ -60,7 +59,6 @@
 <!-- End Page Loading -->
 
 <!-- //////////////////////////////////////////////////////////////////////////// -->
-=======
     <!-- Start Page Loading -->
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -68,8 +66,6 @@
         <div class="loader-section section-right"></div>
     </div>
     <!-- End Page Loading -->
->>>>>>> origin/master
-
 <!-- START HEADER -->
 <?php include "pages/general/header.php" ?>
 <!-- END HEADER -->
@@ -335,7 +331,7 @@ Scripts
 <!-- jQuery Library -->
 <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>
 <!--materialize js-->
-<script type="text/javascript" src="dist/js/materialize.min.js"></script>
+<script type="text/javascript" src="dist/js/materialize.js"></script>
 <!--scrollbar-->
 <script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 
@@ -351,7 +347,7 @@ Scripts
 
 
 <!--plugins.js - Some Specific JS codes for Plugin Settings-->
-<script type="text/javascript" src="dist/js/plugins.min.js"></script>
+<script type="text/javascript" src="dist/js/plugins.js"></script>
 <!--custom-script.js - Add your own theme custom JS-->
 <script type="text/javascript" src="dist/js/custom-script.js"></script>
 <!-- Toast Notification -->
