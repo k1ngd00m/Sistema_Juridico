@@ -100,7 +100,7 @@
                             <i class="mdi-editor-mode-edit"></i>
                         </a>
 
-<<<<<<< HEAD
+
                         <span class="card-title activator grey-text text-darken-4">Roger Waters</span>
                         <p><i class="mdi-action-perm-identity"></i> Project Manager</p>
                         <p><i class="mdi-action-perm-phone-msg"></i> +1 (612) 222 8989</p>
@@ -122,8 +122,7 @@
                         </p>
                         <p>
                         </p></div>
-=======
->>>>>>> origin/master
+
                 </div>
             </div>
             <!--end container-->
@@ -279,13 +278,13 @@
                                 </div>
                             </div>
                         </li>
-<<<<<<< HEAD
+
                     </ul>
                 </li>
             </ul>
         </aside>
         <!-- LEFT RIGHT SIDEBAR NAV-->
-=======
+
                         </ul>
                     </li>
                 </ul>
@@ -294,7 +293,7 @@
 
         </div>
         <!-- END WRAPPER -->
->>>>>>> origin/master
+
 
     </div>
     <!-- END WRAPPER -->
@@ -312,7 +311,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-<<<<<<< HEAD
+
             Copyright © 2015 <a class="grey-text text-lighten-4"
                                 href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a>
             All rights reserved.
@@ -351,7 +350,7 @@ Scripts
 <!--custom-script.js - Add your own theme custom JS-->
 <script type="text/javascript" src="dist/js/custom-script.js"></script>
 <!-- Toast Notification -->
-=======
+
 
         </div>
         <div class="footer-copyright">
@@ -391,7 +390,7 @@ Scripts
     <!--custom-script.js - Add your own theme custom JS-->
     <script type="text/javascript" src="dist/js/custom-script.js"></script>
     <!-- Toast Notification -->
->>>>>>> origin/master
+
 
 </body>
 
