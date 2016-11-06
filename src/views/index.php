@@ -50,6 +50,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 <!-- Start Page Loading -->
 <div id="loader-wrapper">
     <div id="loader"></div>
@@ -59,6 +60,15 @@
 <!-- End Page Loading -->
 
 <!-- //////////////////////////////////////////////////////////////////////////// -->
+=======
+    <!-- Start Page Loading -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Page Loading -->
+>>>>>>> origin/master
 
 <!-- START HEADER -->
 <?php include "pages/general/header.php" ?>
@@ -94,6 +104,7 @@
                             <i class="mdi-editor-mode-edit"></i>
                         </a>
 
+<<<<<<< HEAD
                         <span class="card-title activator grey-text text-darken-4">Roger Waters</span>
                         <p><i class="mdi-action-perm-identity"></i> Project Manager</p>
                         <p><i class="mdi-action-perm-phone-msg"></i> +1 (612) 222 8989</p>
@@ -115,6 +126,8 @@
                         </p>
                         <p>
                         </p></div>
+=======
+>>>>>>> origin/master
                 </div>
             </div>
             <!--end container-->
@@ -270,11 +283,22 @@
                                 </div>
                             </div>
                         </li>
+<<<<<<< HEAD
                     </ul>
                 </li>
             </ul>
         </aside>
         <!-- LEFT RIGHT SIDEBAR NAV-->
+=======
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <!-- LEFT RIGHT SIDEBAR NAV-->
+
+        </div>
+        <!-- END WRAPPER -->
+>>>>>>> origin/master
 
     </div>
     <!-- END WRAPPER -->
@@ -292,6 +316,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
+<<<<<<< HEAD
             Copyright © 2015 <a class="grey-text text-lighten-4"
                                 href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a>
             All rights reserved.
@@ -330,6 +355,47 @@ Scripts
 <!--custom-script.js - Add your own theme custom JS-->
 <script type="text/javascript" src="dist/js/custom-script.js"></script>
 <!-- Toast Notification -->
+=======
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright © 2015 <a class="grey-text text-lighten-4" href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a> All rights reserved.
+                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="http://geekslabs.com/">GeeksLabs</a></span>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+
+    <!-- ================================================
+    Scripts
+    ================================================ -->
+
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>
+    <!--materialize js-->
+    <script type="text/javascript" src="dist/js/materialize.min.js"></script>
+    <!--scrollbar-->
+    <script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+
+    <!-- sparkline -->
+    <script type="text/javascript" src="dist/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="dist/js/plugins/sparkline/sparkline-script.js"></script>
+
+    <!--jvectormap-->
+    <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script type="text/javascript" src="dist/js/plugins/jvectormap/vectormap-script.js"></script>
+
+
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="dist/js/plugins.min.js"></script>
+    <!--custom-script.js - Add your own theme custom JS-->
+    <script type="text/javascript" src="dist/js/custom-script.js"></script>
+    <!-- Toast Notification -->
+>>>>>>> origin/master
 
 </body>
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -867,3 +868,9 @@ Scripts
 
 <!-- Mirrored from demo.geekslabs.com/materialize/v3.1/ by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 07 Oct 2016 13:34:40 GMT -->
 </html>
+=======
+<?php
+echo "formulario registro proceso";
+
+?>
+>>>>>>> origin/master
