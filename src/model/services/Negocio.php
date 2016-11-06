@@ -1,4 +1,5 @@
 <?php
+include_once __DIR__."../dto/AbogadoDTO.php";
 
 /**
  * Created by PhpStorm.
@@ -6,10 +7,10 @@
  * Date: 05/11/2016
  * Time: 7:50 PM
  */
-class Negocio
+class Negocio implements INegocio
 {
     /**
-     * @param $abogadoDTO Abogado
+     * @param $abogadoDTO AbogadoDTO
      */
     public function registrar_cuenta_abogado($abogadoDTO){
 

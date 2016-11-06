@@ -20,6 +20,7 @@ class UsuarioService
            /**
             * @var UsuarioDAO $usuarioDAO
             */
+
            $usuarioDAO=$transaccion->getDAO('UsuarioDAO');
            $usuarioDAO->saved($dto);
            $usuarioDAO->
