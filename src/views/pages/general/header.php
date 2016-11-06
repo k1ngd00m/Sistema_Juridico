@@ -3,41 +3,25 @@
         <div class="navbar-fixed">
             <nav class="navbar-color">
                 <div class="nav-wrapper">
-                    <ul class="left">                      
-                      <li><h1 class="logo-wrapper"><a href="index-2.html" class="brand-logo darken-1"><src="dist/images/materialize-logo.png" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
+                    <ul class="left">
+                      <li><h1 class="logo-wrapper"><a href="#" class="brand-logo darken-1"><image src="dist/images/materialize-logo.png" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
                     </ul>
-                    <div class="header-search-wrapper hide-on-med-and-down">
-                        <i class="mdi-action-search"></i>
-                        <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize"/>
-                    </div>
+
                     <ul class="right hide-on-med-and-down">
-                        
-                        
-                        <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown"><i class="mdi-social-notifications"><small class="notification-badge">5</small></i>
-                        
+
+
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown">
+                                <i class="mdi-social-notifications"><small class="notification-badge">5</small></i>
+
                         </a>
-                        </li>                        
+                        </li>
                         <li><a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse"><i class="mdi-communication-chat"></i></a>
                         </li>
                     </ul>
-                    <!-- translation-button -->
-                    <ul id="translation-dropdown" class="dropdown-content">
-                      <li>
-                        <a href="#!"><img src="dist/images/flag-icons/United-States.png" alt="English" />  <span class="language-select">English</span></a>
-                      </li>
-                      <li>
-                        <a href="#!"><img src="dist/images/flag-icons/France.png" alt="French" />  <span class="language-select">French</span></a>
-                      </li>
-                      <li>
-                        <a href="#!"><img src="dist/images/flag-icons/China.png" alt="Chinese" />  <span class="language-select">Chinese</span></a>
-                      </li>
-                      <li>
-                        <a href="#!"><img src="dist/images/flag-icons/Germany.png" alt="German" />  <span class="language-select">German</span></a>
-                      </li>
-                      
-                    </ul>
+
                     <!-- notifications-dropdown -->
-                    <ul id="notifications-dropdown" class="dropdown-content">
+                    <ul id="notifications-dropdown" class="dropdown-content" >
                       <li>
                         <h5>NOTIFICATIONS <span class="new badge">5</span></h5>
                       </li>

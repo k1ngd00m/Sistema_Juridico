@@ -15,8 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
-    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
-    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <meta name="description"
+          content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords"
+          content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
     <title>Materialize - Material Design Admin Template</title>
 
     <!-- Favicons-->
@@ -29,68 +31,103 @@
     <!-- For Windows Phone -->
 
 
-    <!-- CORE CSS-->    
+    <!-- CORE CSS-->
     <link href="dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="dist/css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <!-- Custome CSS-->    
+    <!-- Custome CSS-->
     <link href="dist/css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
-    <link href="dist/dist/js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="dist/dist/js/plugins/jvectormap/jquery-jvectormap.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="dist/dist/js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="dist/dist/js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet"
+          media="screen,projection">
+    <link href="dist/dist/js/plugins/jvectormap/jquery-jvectormap.css" type="text/css" rel="stylesheet"
+          media="screen,projection">
+    <link href="dist/dist/js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet"
+          media="screen,projection">
 
 
 </head>
 
 <body>
-    <!-- Start Page Loading -->
-    <div id="loader-wrapper">
-        <div id="loader"></div>        
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
-    <!-- End Page Loading -->
+<!-- Start Page Loading -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!-- End Page Loading -->
 
-    <!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- START HEADER -->
-    <?php include "pages/general/header.php" ?>
-    <!-- END HEADER -->
+<!-- START HEADER -->
+<?php include "pages/general/header.php" ?>
+<!-- END HEADER -->
 
-    <!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- START MAIN -->
-    <div id="main">
-        <!-- START WRAPPER -->
-        <div class="wrapper">
+<!-- START MAIN -->
+<div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
 
-            <!-- START LEFT SIDEBAR NAV-->
-            <?php include "pages/general/menu.php" ?>
-            <!-- END LEFT SIDEBAR NAV-->
+        <!-- START LEFT SIDEBAR NAV-->
+        <?php include "pages/general/menu.php" ?>
+        <!-- END LEFT SIDEBAR NAV-->
 
-            <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
 
-            <!-- START CONTENT -->
-            <section id="content">
+        <!-- START CONTENT -->
+        <section id="content">
 
-                <!--start container-->
-                <div class="container">
+            <!--start container-->
+            <div class="container">
 
-                    <!--chart dashboard start-->
-                    
+                <div id="profile-card" class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="dist/images/user-bg.jpg" alt="user bg">
+                    </div>
+                    <div class="card-content">
+                        <img src="dist/images/avatar.jpg" alt=""
+                             class="circle responsive-img activator card-profile-image">
+                        <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
+                            <i class="mdi-editor-mode-edit"></i>
+                        </a>
+
+                        <span class="card-title activator grey-text text-darken-4">Roger Waters</span>
+                        <p><i class="mdi-action-perm-identity"></i> Project Manager</p>
+                        <p><i class="mdi-action-perm-phone-msg"></i> +1 (612) 222 8989</p>
+                        <p><i class="mdi-communication-email"></i> yourmail@domain.com</p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Roger Waters <i
+                                class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this card.</p>
+                        <p><i class="mdi-action-perm-identity"></i> Project Manager</p>
+                        <p><i class="mdi-action-perm-phone-msg"></i> +1 (612) 222 8989</p>
+                        <p><i class="mdi-communication-email"></i> yourmail@domain.com</p>
+                        <p><i class="mdi-social-cake"></i> 18th June 1990
+                        </p>
+                        <p>
+                        </p>
+                        <p><i class="mdi-device-airplanemode-on"></i> BAR - AUS
+                        </p>
+                        <p>
+                        </p></div>
                 </div>
-                <!--end container-->
-            </section>
-            <!-- END CONTENT -->
+            </div>
+            <!--end container-->
+        </section>
+        <!-- END CONTENT -->
 
-            <!-- //////////////////////////////////////////////////////////////////////////// -->
-            <!-- START RIGHT SIDEBAR NAV-->
-            <aside id="right-sidebar-nav">
-                <ul id="chat-out" class="side-nav rightside-navigation">
-                    <li class="li-hover">
-                    <a href="#" data-activates="chat-out" class="chat-close-collapse right"><i class="mdi-navigation-close"></i></a>
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START RIGHT SIDEBAR NAV-->
+        <aside id="right-sidebar-nav">
+            <ul id="chat-out" class="side-nav rightside-navigation">
+                <li class="li-hover">
+                    <a href="#" data-activates="chat-out" class="chat-close-collapse right"><i
+                            class="mdi-navigation-close"></i></a>
                     <div id="right-search" class="row">
                         <form class="col s12">
                             <div class="input-field">
@@ -100,14 +137,17 @@
                             </div>
                         </form>
                     </div>
-                    </li>
-                    <li class="li-hover">
-                        <ul class="chat-collapsible" data-collapsible="expandable">
+                </li>
+                <li class="li-hover">
+                    <ul class="chat-collapsible" data-collapsible="expandable">
                         <li>
-                            <div class="collapsible-header teal white-text active"><i class="mdi-social-whatshot"></i>Recent Activity</div>
+                            <div class="collapsible-header teal white-text active"><i class="mdi-social-whatshot"></i>Recent
+                                Activity
+                            </div>
                             <div class="collapsible-body recent-activity">
                                 <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-add-shopping-cart"></i>
+                                    <div class="col s3 recent-activity-list-icon"><i
+                                            class="mdi-action-add-shopping-cart"></i>
                                     </div>
                                     <div class="col s9 recent-activity-list-text">
                                         <a href="#">just now</a>
@@ -115,7 +155,8 @@
                                     </div>
                                 </div>
                                 <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-device-airplanemode-on"></i>
+                                    <div class="col s3 recent-activity-list-icon"><i
+                                            class="mdi-device-airplanemode-on"></i>
                                     </div>
                                     <div class="col s9 recent-activity-list-text">
                                         <a href="#">Yesterday</a>
@@ -123,7 +164,8 @@
                                     </div>
                                 </div>
                                 <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-settings-voice"></i>
+                                    <div class="col s3 recent-activity-list-icon"><i
+                                            class="mdi-action-settings-voice"></i>
                                     </div>
                                     <div class="col s9 recent-activity-list-text">
                                         <a href="#">5 Days Ago</a>
@@ -139,7 +181,8 @@
                                     </div>
                                 </div>
                                 <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-settings-voice"></i>
+                                    <div class="col s3 recent-activity-list-icon"><i
+                                            class="mdi-action-settings-voice"></i>
                                     </div>
                                     <div class="col s9 recent-activity-list-text">
                                         <a href="#">5 Days Ago</a>
@@ -149,7 +192,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header light-blue white-text active"><i class="mdi-editor-attach-money"></i>Sales Repoart</div>
+                            <div class="collapsible-header light-blue white-text active"><i
+                                    class="mdi-editor-attach-money"></i>Sales Repoart
+                            </div>
                             <div class="collapsible-body sales-repoart">
                                 <div class="sales-repoart-list  chat-out-list row">
                                     <div class="col s8">Target Salse</div>
@@ -174,10 +219,13 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header red white-text"><i class="mdi-action-stars"></i>Favorite Associates</div>
+                            <div class="collapsible-header red white-text"><i class="mdi-action-stars"></i>Favorite
+                                Associates
+                            </div>
                             <div class="collapsible-body favorite-associates">
                                 <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img online-user valign profile-image">
+                                    <div class="col s4"><img src="images/avatar.jpg" alt=""
+                                                             class="circle responsive-img online-user valign profile-image">
                                     </div>
                                     <div class="col s8">
                                         <p>Eileen Sideways</p>
@@ -185,7 +233,8 @@
                                     </div>
                                 </div>
                                 <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img online-user valign profile-image">
+                                    <div class="col s4"><img src="images/avatar.jpg" alt=""
+                                                             class="circle responsive-img online-user valign profile-image">
                                     </div>
                                     <div class="col s8">
                                         <p>Zaham Sindil</p>
@@ -193,7 +242,8 @@
                                     </div>
                                 </div>
                                 <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img offline-user valign profile-image">
+                                    <div class="col s4"><img src="images/avatar.jpg" alt=""
+                                                             class="circle responsive-img offline-user valign profile-image">
                                     </div>
                                     <div class="col s8">
                                         <p>Renov Leongal</p>
@@ -201,7 +251,8 @@
                                     </div>
                                 </div>
                                 <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img online-user valign profile-image">
+                                    <div class="col s4"><img src="images/avatar.jpg" alt=""
+                                                             class="circle responsive-img online-user valign profile-image">
                                     </div>
                                     <div class="col s8">
                                         <p>Weno Carasbong</p>
@@ -209,7 +260,8 @@
                                     </div>
                                 </div>
                                 <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img offline-user valign profile-image">
+                                    <div class="col s4"><img src="images/avatar.jpg" alt=""
+                                                             class="circle responsive-img offline-user valign profile-image">
                                     </div>
                                     <div class="col s8">
                                         <p>Nusja Nawancali</p>
@@ -218,65 +270,67 @@
                                 </div>
                             </div>
                         </li>
-                        </ul>
-                    </li>
-                </ul>
-            </aside>
-            <!-- LEFT RIGHT SIDEBAR NAV-->
-            
-        </div>
-        <!-- END WRAPPER -->
-        
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <!-- LEFT RIGHT SIDEBAR NAV-->
+
     </div>
-    <!-- END MAIN -->
+    <!-- END WRAPPER -->
+
+</div>
+<!-- END MAIN -->
 
 
+<!-- //////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- START FOOTER -->
+<footer class="page-footer">
+    <div class="container">
 
-    <!-- START FOOTER -->
-    <footer class="page-footer">
+    </div>
+    <div class="footer-copyright">
         <div class="container">
-            
+            Copyright © 2015 <a class="grey-text text-lighten-4"
+                                href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a>
+            All rights reserved.
+            <span class="right"> Design and Developed by <a class="grey-text text-lighten-4"
+                                                            href="http://geekslabs.com/">GeeksLabs</a></span>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                Copyright © 2015 <a class="grey-text text-lighten-4" href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a> All rights reserved.
-                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="http://geekslabs.com/">GeeksLabs</a></span>
-            </div>
-        </div>
-    </footer>
-    <!-- END FOOTER -->
+    </div>
+</footer>
+<!-- END FOOTER -->
 
 
-    <!-- ================================================
-    Scripts
-    ================================================ -->
-    
-    <!-- jQuery Library -->
-    <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>    
-    <!--materialize js-->
-    <script type="text/javascript" src="dist/js/materialize.min.js"></script>
-    <!--scrollbar-->
-    <script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    
+<!-- ================================================
+Scripts
+================================================ -->
 
-    <!-- sparkline -->
-    <script type="text/javascript" src="dist/js/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="dist/js/plugins/sparkline/sparkline-script.js"></script>
-   
-    <!--jvectormap-->
-    <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <script type="text/javascript" src="dist/js/plugins/jvectormap/vectormap-script.js"></script>
- 
-    
-    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
-    <script type="text/javascript" src="dist/js/plugins.min.js"></script>
-    <!--custom-script.js - Add your own theme custom JS-->
-    <script type="text/javascript" src="dist/js/custom-script.js"></script>
-    <!-- Toast Notification -->
-   
+<!-- jQuery Library -->
+<script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>
+<!--materialize js-->
+<script type="text/javascript" src="dist/js/materialize.min.js"></script>
+<!--scrollbar-->
+<script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+
+<!-- sparkline -->
+<script type="text/javascript" src="dist/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script type="text/javascript" src="dist/js/plugins/sparkline/sparkline-script.js"></script>
+
+<!--jvectormap-->
+<script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script type="text/javascript" src="dist/js/plugins/jvectormap/vectormap-script.js"></script>
+
+
+<!--plugins.js - Some Specific JS codes for Plugin Settings-->
+<script type="text/javascript" src="dist/js/plugins.min.js"></script>
+<!--custom-script.js - Add your own theme custom JS-->
+<script type="text/javascript" src="dist/js/custom-script.js"></script>
+<!-- Toast Notification -->
+
 </body>
 
 
