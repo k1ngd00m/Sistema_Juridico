@@ -34,7 +34,7 @@
                             class="mdi-action-work "></i></i> Procesos</a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="proceso/formularioRegistro">Registrar</a>
+                            <li><a href="#" onclick="loadVista('proceso/formularioRegistro','contenedorLoad')">Registrar</a>
                             </li>
                             <li><a href="proceso/listar">Listar</a>
                             </li>

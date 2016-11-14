@@ -34,6 +34,8 @@
     <!-- CORE CSS-->
     <link href="dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="dist/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="dist/js/plugins/jsgrid/css/jsgrid.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="dist/js/plugins/jsgrid/css/jsgrid-theme.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
     <link href="dist/css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
@@ -85,46 +87,34 @@
 
         <!-- START CONTENT -->
         <section id="content">
+            <!--breadcrumbs start-->
+            <div id="breadcrumbs-wrapper">
+                <!-- Search for small screen -->
+                <div class="header-search-wrapper grey hide-on-large-only">
+                    <i class="mdi-action-search active"></i>
+                    <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m12 l12">
+                            <h5 class="breadcrumbs-title">Cards</h5>
+                            <ol class="breadcrumbs">
+                                <li><a href="index-2.html">Dashboard</a>
+                                </li>
+                                <li><a href="#">UI Elements</a>
+                                </li>
+                                <li class="active">Cards</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--breadcrumbs end-->
 
             <!--start container-->
-            <div class="container">
+            <div class="container" id="contenedorLoad">
 
-                <div id="profile-card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="dist/images/user-bg.jpg" alt="user bg">
-                    </div>
-                    <div class="card-content">
-                        <img src="dist/images/avatar.jpg" alt=""
-                             class="circle responsive-img activator card-profile-image">
-                        <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
-                            <i class="mdi-editor-mode-edit"></i>
-                        </a>
 
-<<<<<<< HEAD
-                        <span class="card-title activator grey-text text-darken-4">Roger Waters</span>
-                        <p><i class="mdi-action-perm-identity"></i> Project Manager</p>
-                        <p><i class="mdi-action-perm-phone-msg"></i> +1 (612) 222 8989</p>
-                        <p><i class="mdi-communication-email"></i> yourmail@domain.com</p>
-
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Roger Waters <i
-                                class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this card.</p>
-                        <p><i class="mdi-action-perm-identity"></i> Project Manager</p>
-                        <p><i class="mdi-action-perm-phone-msg"></i> +1 (612) 222 8989</p>
-                        <p><i class="mdi-communication-email"></i> yourmail@domain.com</p>
-                        <p><i class="mdi-social-cake"></i> 18th June 1990
-                        </p>
-                        <p>
-                        </p>
-                        <p><i class="mdi-device-airplanemode-on"></i> BAR - AUS
-                        </p>
-                        <p>
-                        </p></div>
-=======
->>>>>>> origin/master
-                </div>
             </div>
             <!--end container-->
         </section>
@@ -279,13 +269,13 @@
                                 </div>
                             </div>
                         </li>
-<<<<<<< HEAD
+
                     </ul>
                 </li>
             </ul>
         </aside>
         <!-- LEFT RIGHT SIDEBAR NAV-->
-=======
+
                         </ul>
                     </li>
                 </ul>
@@ -294,7 +284,6 @@
 
         </div>
         <!-- END WRAPPER -->
->>>>>>> origin/master
 
     </div>
     <!-- END WRAPPER -->
@@ -312,7 +301,6 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-<<<<<<< HEAD
             Copyright © 2015 <a class="grey-text text-lighten-4"
                                 href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a>
             All rights reserved.
@@ -327,11 +315,12 @@
 <!-- ================================================
 Scripts
 ================================================ -->
-
 <!-- jQuery Library -->
 <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>
 <!--materialize js-->
 <script type="text/javascript" src="dist/js/materialize.js"></script>
+<!--prism-->
+<script type="text/javascript" src="dist/js/plugins/prism/prism.js"></script>
 <!--scrollbar-->
 <script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 
@@ -344,54 +333,18 @@ Scripts
 <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
 <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <script type="text/javascript" src="dist/js/plugins/jvectormap/vectormap-script.js"></script>
-
+<!--jsgrid-->
+<script type="text/javascript" src="dist/js/plugins/jsgrid/js/jsgrid.min.js"></script>
 
 <!--plugins.js - Some Specific JS codes for Plugin Settings-->
 <script type="text/javascript" src="dist/js/plugins.js"></script>
 <!--custom-script.js - Add your own theme custom JS-->
 <script type="text/javascript" src="dist/js/custom-script.js"></script>
+<script type="text/javascript"src="dist/js/general/loadContenedor.js"></script>
 <!-- Toast Notification -->
-=======
-
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                Copyright © 2015 <a class="grey-text text-lighten-4" href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a> All rights reserved.
-                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="http://geekslabs.com/">GeeksLabs</a></span>
-            </div>
-        </div>
-    </footer>
-    <!-- END FOOTER -->
 
 
-    <!-- ================================================
-    Scripts
-    ================================================ -->
 
-    <!-- jQuery Library -->
-    <script type="text/javascript" src="dist/js/plugins/jquery-1.11.2.min.js"></script>
-    <!--materialize js-->
-    <script type="text/javascript" src="dist/js/materialize.min.js"></script>
-    <!--scrollbar-->
-    <script type="text/javascript" src="dist/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-
-
-    <!-- sparkline -->
-    <script type="text/javascript" src="dist/js/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="dist/js/plugins/sparkline/sparkline-script.js"></script>
-
-    <!--jvectormap-->
-    <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script type="text/javascript" src="dist/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <script type="text/javascript" src="dist/js/plugins/jvectormap/vectormap-script.js"></script>
-
-
-    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
-    <script type="text/javascript" src="dist/js/plugins.min.js"></script>
-    <!--custom-script.js - Add your own theme custom JS-->
-    <script type="text/javascript" src="dist/js/custom-script.js"></script>
-    <!-- Toast Notification -->
->>>>>>> origin/master
 
 </body>
 

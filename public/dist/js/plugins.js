@@ -14,9 +14,9 @@ $(function() {
   /*Preloader*/
   $(window).load(function() {
     setTimeout(function() {
-      $('body').addClass('loaded');      
+      $('body').addClass('loaded');
     }, 200);
-  });  
+  });
 
   
   // Search class for focus
