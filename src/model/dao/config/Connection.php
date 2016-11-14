@@ -2,22 +2,27 @@
 
 /**
  * Created by PhpStorm.
- * User: Miguel
- * Date: 07/07/2016
- * Time: 10:52 PM
+ * User: McBro
+ * Date: 05/11/2016
+ * Time: 7:50 PM
  */
-class Connection extends PDO
+class Connection
 {
     private $host='localhost';
-    private $port='3306';
-    private $dbms='mysql';
-    private $dbName='foro';
-    private $user='root';
-    private $password='1871';
-
-    public function __construct($dsn, $username, $passwd, $options)
+    private $db='Sistema_Juridico';
+    private $user='postgres';
+    private $password='0925';
+    private $url;
+    private $connection;
+    public function __construct()
     {
-        parent::__construct("$this->dbms:host=$this->host;port=$this->port;dbname=$this->dbName",$this->user, $this->password);
+        $this->url="host='$this->host' dbname='$this->db' user='$this->user' password='$this->pass' ";
+        $this->connection = pg_connect($this->url);
+    }
+
+    public function __destruct()
+    {
+        pg_close($this->connection);
     }
 
 }
