@@ -8,10 +8,10 @@
  */
 class Connection
 {
-    private $host = 'localhost';
+    private $host = 'sandbox2.ufps.edu.co';
     private $db = 'Sistema_Juridico';
     private $user = 'postgres';
-    private $password = '0925';
+    private $password = 'ufps';
     private $url;
     private $connection;
 
