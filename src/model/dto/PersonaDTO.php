@@ -3,20 +3,39 @@
    *
    */
   class Persona{
-
+    private $dni;
     private $nombre;
     private $apellido;
     private $correo;
     private $fecha_nac;
     private $telefono;
 
-    function Persona($nombre, $apellido, $correo, $fecha_nac, $telefono){
+    function Persona($dni,$nombre, $apellido, $correo, $fecha_nac, $telefono){
+      $this->dni = $dni;
       $this->nombre = $nombre;
       $this->apellido = $apellido;
       $this->correo = $correo;
       $this->fecha_nac = $fecha_nac;
       $this->telefono = $telefono;
     }
+
+    /**
+     * @return mixed
+     */
+    public function get_dni()
+    {
+      return $this->dni;
+    }
+
+    /**
+     * @param mixed $dni
+     */
+    public function set_dni($dni)
+    {
+      $this->dni = $dni;
+    }
+
+
 
     public function get_nombre(){
       return $this->nombre;

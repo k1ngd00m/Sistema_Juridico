@@ -7,8 +7,8 @@
    private $especialidad;
    private $alma_mater;
 
-   function Abogado($nombre, $apellido, $correo, $fecha_nac, $telefono, $especialidad, $alma_mater){
-     $this->Persona($nombre, $apellido, $correo, $fecha_nac, $telefono);
+   function Abogado($dni,$nombre, $apellido, $correo, $fecha_nac, $telefono, $especialidad, $alma_mater){
+     $this->Persona($dni,$nombre, $apellido, $correo, $fecha_nac, $telefono);
      $this->especialidad = $especialidad;
      $this->alma_mater = $alma_mater;
    }

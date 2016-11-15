@@ -13,6 +13,16 @@ class Negocio implements INegocio
      * @param $abogadoDTO AbogadoDTO
      */
     public function registrar_cuenta_abogado($abogadoDTO){
+        try{
+            $transaccion = new TransactionManager();
+            $transaccion->beginTransaction();
+
+            $abogadoDAO = $transaccion->getDAO("AbogadoDAO");
+            $abogadoDAO->registrar_cuenta_abogado($abogadoDTO);
+            $abogadoDAO->flush();
+        } catch (Exception $e){
+            $transaccion->rollback();
+        }
 
     }
 

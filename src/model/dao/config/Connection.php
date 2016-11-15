@@ -8,15 +8,16 @@
  */
 class Connection
 {
-    private $host='localhost';
-    private $db='Sistema_Juridico';
-    private $user='postgres';
-    private $password='0925';
+    private $host = 'localhost';
+    private $db = 'Sistema_Juridico';
+    private $user = 'postgres';
+    private $password = '0925';
     private $url;
     private $connection;
+
     public function __construct()
     {
-        $this->url="host='$this->host' dbname='$this->db' user='$this->user' password='$this->pass' ";
+        $this->url = "host='$this->host' dbname='$this->db' user='$this->user' password='$this->pass' ";
         $this->connection = pg_connect($this->url);
     }
 
@@ -25,4 +26,7 @@ class Connection
         pg_close($this->connection);
     }
 
+    public function query($query){
+        return pg_query($this->connection,$query);
+    }
 }

@@ -6,7 +6,7 @@
  * Date: 07/07/2016
  * Time: 11:04 PM
  */
-interface IUsuario
+interface Ilink
 {
     /**
      * @param $dto UsuarioDTO

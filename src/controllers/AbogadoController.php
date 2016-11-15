@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__.'/../../library/core/BaseController.php';
+require_once __DIR__ . '/../../library/core/BaseController.php';
+require_once __DIR__."/../model/dto/AbogadoDTO.php";
 /**
  * Created by PhpStorm.
  * User: miguel
@@ -8,17 +9,28 @@ require_once __DIR__.'/../../library/core/BaseController.php';
  */
 class AbogadoController extends BaseController
 {
-    public  function __construct()
+    public function __construct()
     {
         parent::__construct();
     }
-    public function getFormularioRegistro(){
+
+    public function getFormularioRegistro()
+    {
         $this->setView('pages/abogado/viewFormularioRegistro');
 
     }
-    public function getListar(){
+
+    public function getListar()
+    {
         $this->setView('pages/abogado/viewListar');
     }
 
-    
+    /**
+     * @param $abogadoDTO AbogadoDTO
+     */
+    public function registrar_cuenta_abogado($abogadoDTO)
+    {
+
+    }
+
 }
